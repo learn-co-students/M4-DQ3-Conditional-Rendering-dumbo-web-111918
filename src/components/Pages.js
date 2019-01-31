@@ -2,7 +2,6 @@ import React from 'react'
 import {userData, photo, cocktails} from '../data.js'
 import {Card, Button, Image, Loader} from 'semantic-ui-react'
 
-/*No need to code in here! These are merely presentational components.*/
 
 export const Profile = () => (
   <Card fluid>
@@ -16,7 +15,6 @@ export const Profile = () => (
   </Card>
 )
 
-
 export const Photos = () => (
   <Card fluid>
     <Card.Content textAlign="center">
@@ -25,7 +23,6 @@ export const Photos = () => (
     </Card.Content>
   </Card>
 )
-
 
 export const Cocktails = () => {
 
@@ -47,7 +44,6 @@ export const Cocktails = () => {
     </Card>
   )
 }
-
 
 export class Pokemon extends React.Component {
 
